@@ -50,6 +50,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.mskTelefon = new System.Windows.Forms.MaskedTextBox();
             this.txtMail = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.txtSınıf = new System.Windows.Forms.TextBox();
@@ -64,15 +65,14 @@
             this.btnFotoYukle = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.cmbDersAdi = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
             this.txtAd = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.txtSoyad = new System.Windows.Forms.TextBox();
             this.btnOgrtEkle = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
-            this.cmbDersAdi = new System.Windows.Forms.ComboBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.mskTelefon = new System.Windows.Forms.MaskedTextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -111,7 +111,7 @@
             // 
             // btnEtudOlusutr
             // 
-            this.btnEtudOlusutr.Location = new System.Drawing.Point(99, 129);
+            this.btnEtudOlusutr.Location = new System.Drawing.Point(94, 129);
             this.btnEtudOlusutr.Name = "btnEtudOlusutr";
             this.btnEtudOlusutr.Size = new System.Drawing.Size(75, 23);
             this.btnEtudOlusutr.TabIndex = 8;
@@ -304,6 +304,14 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "groupBox4";
             // 
+            // mskTelefon
+            // 
+            this.mskTelefon.Location = new System.Drawing.Point(69, 87);
+            this.mskTelefon.Mask = "(999) 000-0000";
+            this.mskTelefon.Name = "mskTelefon";
+            this.mskTelefon.Size = new System.Drawing.Size(86, 20);
+            this.mskTelefon.TabIndex = 14;
+            // 
             // txtMail
             // 
             this.txtMail.Location = new System.Drawing.Point(69, 112);
@@ -434,6 +442,14 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "groupBox6";
             // 
+            // cmbDersAdi
+            // 
+            this.cmbDersAdi.FormattingEnabled = true;
+            this.cmbDersAdi.Location = new System.Drawing.Point(55, 65);
+            this.cmbDersAdi.Name = "cmbDersAdi";
+            this.cmbDersAdi.Size = new System.Drawing.Size(86, 21);
+            this.cmbDersAdi.TabIndex = 10;
+            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -485,25 +501,9 @@
             this.label16.TabIndex = 1;
             this.label16.Text = "Soyad:";
             // 
-            // cmbDersAdi
-            // 
-            this.cmbDersAdi.FormattingEnabled = true;
-            this.cmbDersAdi.Location = new System.Drawing.Point(55, 65);
-            this.cmbDersAdi.Name = "cmbDersAdi";
-            this.cmbDersAdi.Size = new System.Drawing.Size(86, 21);
-            this.cmbDersAdi.TabIndex = 10;
-            // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // mskTelefon
-            // 
-            this.mskTelefon.Location = new System.Drawing.Point(69, 87);
-            this.mskTelefon.Mask = "(999) 000-0000";
-            this.mskTelefon.Name = "mskTelefon";
-            this.mskTelefon.Size = new System.Drawing.Size(86, 20);
-            this.mskTelefon.TabIndex = 14;
             // 
             // Form1
             // 
